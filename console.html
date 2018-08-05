@@ -3,4 +3,28 @@
         return 'Hello, ' + name + '!\nHello, world, too!';
     };
     console.log(hi('cory'));
+    function addTogether(num1,num2){
+        return num1 + num2;
+    };
+    console.log(addTogether(-101,101));
+    function addAndShow(a,b){
+        console.log(a+b);
+    };
+    addAndShow(6,8);
+    addAndShow('Welcome ','to my twisted mind');
+    function complexMath(w,z){
+        w *= 7;
+        z /= 2;
+        w += z;
+        console.log(w * z);
+    }
+    complexMath(108,27);
+    complexMath(-3.14,1001);
+    function addFirstThree(a){
+        return a[0] + a[1] + a[2];
+    };
+    console.log(addFirstThree([]));
+    console.log(addFirstThree([1,2,3,4,5,6,7,81,9,10,
+                               11,12,13,14,15,16,17,18,19,20,21]));
+    console.log(addFirstThree(['a','b','c','d','e','f','g']));
 </script>
